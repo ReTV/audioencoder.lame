@@ -6,7 +6,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR})
 
 enable_language(CXX)
 
-find_package(retv REQUIRED)
+find_package(ReTV REQUIRED)
 find_package(Lame REQUIRED)
 if(WIN32)
   find_package(MPGHIP REQUIRED)
