@@ -12,7 +12,7 @@ if(WIN32)
   find_package(MPGHIP REQUIRED)
 endif()
 
-include_directories(${KODI_INCLUDE_DIR}
+include_directories(${RETV_INCLUDE_DIR}
                     ${LAME_INCLUDE_DIRS})
 
 set(LAME_SOURCES src/EncoderLame.cpp)
